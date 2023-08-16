@@ -1,0 +1,40 @@
+.names{
+  height: 83vh;
+   width: 100%;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  h1{
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+
+  &_item{
+    width: 20%;
+    margin: 0 auto;
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+
+    h3{
+      margin: 5px;
+    }
+    h4{
+      margin: 5px;
+    }
+
+
+    &:hover{
+      cursor: pointer;
+      background-color: cornflowerblue;
+      color: white;
+      
+    }
+  }
+}

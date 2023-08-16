@@ -1,0 +1,44 @@
+.doctors_container{
+  height: 83vh;
+  width: 100%;
+  background-color: whitesmoke;
+  margin: 0 auto;
+
+  h1{
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  h2{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+}
+.doctors {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 30px 30px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  .doctors_item{
+    background-color: white;
+    border: 0px solid black;
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    &:hover{
+      cursor: pointer;
+      border-left: 4px solid blue;
+      color: black;
+
+    }
+
+  }
+}

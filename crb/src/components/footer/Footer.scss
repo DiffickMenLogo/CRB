@@ -1,0 +1,16 @@
+.footer{
+  height: 7vh;
+  background-color: cornflowerblue;
+  margin-top: auto;
+  &_container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: end;
+  }
+  h2{
+    margin: 0;
+  }
+}
